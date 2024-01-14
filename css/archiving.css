@@ -1,0 +1,38 @@
+.con3{height: 50vh;}
+.con3 h2{margin-top:70px; font-size: 40px; text-align: center; }
+
+.archi{
+    margin-top:80px;
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+#ar1{
+    font-size: 20px;
+}
+#ar2{
+    font-size: 20px;
+    margin-top: 40px;
+}
+#ar3{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+#ar11 a:link{color: #8d5858; text-decoration: none; font-weight: bold};
+#ar11 a:visited{color: #8488d2; text-decoration: none; font-weight: bold;}
+#ar11 a:active{color: #16ad2c; text-decoration: none; font-weight: bold;}
+#ar11 a:hover{color: #ff0000; text-decoration: none; font-weight: bold;}
+
+#ar22 a:link{color: #8d5858; text-decoration: none; font-weight: bold};
+#ar22 a:visited{color: #8488d2; text-decoration: none; font-weight: bold;}
+#ar22 a:active{color: #16ad2c; text-decoration: none; font-weight: bold;}
+#ar22 a:hover{color: #ff0000; text-decoration: none; font-weight: bold;}
+
+#ar33 a:link{color: #8d5858; text-decoration: none; font-weight: bold};
+#ar33 a:visited{color: #8488d2; text-decoration: none; font-weight: bold;}
+#ar33 a:active{color: #16ad2c; text-decoration: none; font-weight: bold;}
+#ar33 a:hover{color: #ff0000; text-decoration: none; font-weight: bold;}

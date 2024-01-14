@@ -1,0 +1,25 @@
+.con1{height: 60vh;}
+.con1 h2{margin-top:70px; font-size: 40px; text-align: center; }
+#profileimg{margin-top: 30px; display: flex; justify-content: center;}
+#profileimg img{display: block; margin: 0 auto;}
+.a {margin-top: 50px; display: flex; justify-content: center;    
+    margin-left: 240px;
+    margin-right: 370px;
+    }
+.a tr th,
+.a tr td{padding-left:200px; /* 원하는 간격으로 설정하세요 */
+    text-align: center;}
+.a1{
+    display: flex; justify-content: center;    
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    margin-top: 50px;
+    }
+.a1 tr th,
+.a1 tr td{padding-left:100px; /* 원하는 간격으로 설정하세요 */
+    
+    text-align: center;}
+
+/* #aboutMe aside tr td{ margin-left: 200px; padding-bottom: 10px;} */
+    

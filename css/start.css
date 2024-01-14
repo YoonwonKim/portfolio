@@ -1,0 +1,75 @@
+*{
+    margin:0;
+}
+#start{
+    color:white; 
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 200px;
+    font-size: 40px;
+    font-family: 'IBM Plex Mono 굵게';
+    font-weight:bold;
+}
+
+.tiledBackground {
+    
+    background-image: url(../image/bg.jpg);
+    background-size: 100% 100%; /* 배경 이미지를 가득 채우도록 설정 */
+    background-repeat: no-repeat; /* 배경 이미지 반복 없음 */
+    /* background-size: cover; */
+    font-weight:bold;
+    width: 100%;
+    height : 600px;
+    margin:0 auto;
+}
+
+.tiledBackground ul {
+    text-align: right;
+}
+
+
+.tiledBackground li{
+    display: inline;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin-left: 20px;
+
+}
+
+#first{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+#first2{
+    margin:auto;
+    padding:50px;
+}
+
+#first2 tr td{
+    text-align: center;
+}
+
+#profileimg {
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+#skills {
+    text-align: center;
+    list-style-type:none;
+}
+
+#aboutme{
+    background-image: url(../image/aboutme.jpg);
+    width: 100%;
+}
+
+#skills{
+    background-color: rgb(92, 92, 198);
+}
+
+
+
+
