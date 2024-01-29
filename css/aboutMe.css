@@ -1,7 +1,7 @@
-.con1{height: 60vh;}
+.con1{height: 20vh;}
 .con1 h2{margin-top:70px; font-size: 40px; text-align: center; }
-#profileimg{margin-top: 30px; display: flex; justify-content: center;}
-#profileimg img{display: block; margin: 0 auto;}
+#profileimg{margin-top: 30px; display: flex; } 
+#profileimg img{display: block; width: 150px; margin-left: 880px; }
 .a {margin-top: 50px; display: flex; justify-content: center;    
     margin-left: 240px;
     margin-right: 370px;
