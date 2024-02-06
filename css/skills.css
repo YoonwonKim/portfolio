@@ -1,12 +1,76 @@
-.con2{height: 1vh;}
-.con2 h2{margin-top:70px; font-size: 40px; text-align: center; }
-.progress-row {
+.con2 {
+    background-color: rgb(230, 112, 112);
+    /* border: solid 1px black; */
+}
+.con2 h2{font-size: 40px; text-align: center; font-family:'SB'; padding-top: 30px;
+color: white;}
+
+
+.all{
+    width: 100%;
+    font-size: 25px;
+    font-family:'SB';
+    display: flex;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    justify-content: center;
+    /* border: solid 1px black; */
+}
+
+.Backend{
+    width: 400px;
+    color: rgb(252, 167, 92);
+    padding-top: 30px;
+    background-color: white;
+    border-radius: 30px;
+    justify-content: center;
+    height: 755px;
+}
+.Frontend{
+    width: 400px;
+    color: rgb(252, 167, 92);
+    padding-top: 30px;
+    background-color: white;
+    border-radius: 30px; 
+    height: 400px;
+    margin-left: 80px;
+}
+
+.VersionCon{
+    width: 400px;
+    color: rgb(252, 167, 92);
+    padding-top: 30px;
+    background-color: white;
+    border-radius: 30px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .progress-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 #prog{
+    
     margin-top: 50px;
     margin-left: 280px;
     margin-right: 280px;
 }
+
+ */

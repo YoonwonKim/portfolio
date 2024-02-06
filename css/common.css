@@ -1,4 +1,8 @@
-*{margin: 0; padding: 0; box-sizing: border-box; }
+@font-face {
+	font-family: 'SB';
+	src: url('./fonts/SB.ttf');
+}
+*{margin: 0; padding: 0; box-sizing: border-box;}
 li{list-style: none;}
 a{text-decoration: none; color: inherit;}
 img{vertical-align: top;}
@@ -6,19 +10,25 @@ html{scroll-behavior: smooth;}
 .clear{
 	clear: both;
 }
-#de{border-bottom: 1px solid #b7b7b7;
-	margin-top:5px; font-size: 40px; 
-	
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
+
+
+header {
+    font-size: 18px;
+    padding: 1vh 1vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* header 안에서 요소들을 좌우로 분산 배치합니다. */
 }
 
-header{background: #4f3208; padding: 20px 30px; color:#f9f9f9; display: flex; align-items: 
-center; justify-content: space-between; position: fixed; top: 20px; width: 90%; z-index: 10;
-left: 50%; transform: translateX(-50%); opacity: 50%;}
-header nav ul{display: flex;}
-header nav ul li{margin-left: 50px; font-weight: bold;}
-#mt{
-    margin-top: 400px;
+header nav ul {
+    display: flex;
+    margin-top: 10px;
+    /* margin-left: -30px; 이 부분은 제거합니다. */
 }
+
+header nav ul li {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+

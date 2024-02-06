@@ -1,25 +1,73 @@
-.con1{height: 20vh;}
-.con1 h2{margin-top:70px; font-size: 40px; text-align: center; }
-#profileimg{margin-top: 30px; display: flex; } 
-#profileimg img{display: block; width: 150px; margin-left: 880px; }
-.a {margin-top: 50px; display: flex; justify-content: center;    
-    margin-left: 240px;
-    margin-right: 370px;
-    }
-.a tr th,
-.a tr td{padding-left:200px; /* 원하는 간격으로 설정하세요 */
-    text-align: center;}
-.a1{
-    display: flex; justify-content: center;    
-    margin-left: 100px;
-    margin-right: 100px;
-    
-    margin-top: 50px;
-    }
-.a1 tr th,
-.a1 tr td{padding-left:100px; /* 원하는 간격으로 설정하세요 */
-    
-    text-align: center;}
+.con1 {
 
-/* #aboutMe aside tr td{ margin-left: 200px; padding-bottom: 10px;} */
+/* border: solid 1px black; */
+}
+
+.con1 h2 {
+padding-top: 30px;
+font-size: 40px;
+text-align: center;
+font-family: 'SB';
+}
+
+#ab{
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    justify-content: center;
+    /* border: solid 1px black; */
     
+}
+
+.a{
+    width: 1900px;
+    display: flex;
+    font-size: 18px;
+    /* border: solid 1px black; */
+    justify-content: center;
+    border-radius: 30px;
+    text-align: center;
+    
+    }
+    
+    .a tr th,
+    .a tr td {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+.a tr th{
+    padding-right: 160px;
+}
+
+.a tr td{
+    font-size: 17px;
+    padding-left: 60px;
+}
+
+.a tr th img{
+    margin-right: 20px;
+}
+
+
+
+#profileimg img {
+width: 220px;
+}
+
+
+
+#first3 th {
+padding-top: 20px;
+padding-bottom: 15px;
+font-size: 20px;
+
+}
+
+#first5 th {
+padding-top: 40px;
+padding-bottom: 15px;
+font-size: 20px;
+
+}

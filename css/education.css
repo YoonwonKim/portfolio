@@ -1,9 +1,28 @@
-.con5{height: 80vh;}
-.con5 h2{margin-top:70px; font-size: 40px; text-align: center; }
-#edu{
-    margin-top: 50px;
-    text-align: center;
+.con5{background-color: rgb(124, 200, 232);
+    /* border: solid 1px black; */
 }
+.con5 h2{font-size: 40px; text-align: center; font-family:'SB'; padding-top: 30px;
+    color: white;}
+#edu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: solid 1px black; */
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+#edja{
+    /* border: solid 1px black; */
+    text-align: center;
+    width: 1200px;
+    background-color: white;
+    height: 100%;
+    border-radius: 30px;
+    padding-bottom: 30px;
+
+}
+
 #jang{
     margin-top: 90px;
 }

@@ -17,13 +17,13 @@
 
 </head>  
 <body>
-    <div class="wrap">
+    <div class="wrap" id="home" >
         <header>
             <h1><i class="xi-emoticon-cool"></i><a href="#home">Yoonwon Portfolio</a></h1>
             <nav>
                 <ul> 
                     <li><a href="#aboutMe">About me</a></li>
-                    <li><a href="#skiils">Skills</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#archiving">Archiving</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#education">Education</a></li>
@@ -31,12 +31,21 @@
                 </ul>
             </nav>
         </header>
-        <div id="home" class="con">
+        <div class="con">
             <div id="hometx">
-            <h2 style="font-size: 50px;">시작-과정-결과 중 시작
-                을 중요시하는 김윤원입니다!</h2><br>
-                <div id="ft">김윤원 포트폴리오</div>
+                <p>나의 현재가 과거와 미래를 바꾼다</p>
+                <p style="font-size: 30px;"><br>-김 윤 원-</p>
+                <p style="font-size: 50px; margin-top: 10px;" >웹 개발자 포트폴리오</p>
             </div> 
+                <p id="zz" style="font-size: 30px; margin-top: 170px;" >
+                그래픽디자인을 좋아했던 과거의 나.<br> 
+                지금은 프로그래밍의 어려움을 견뎌내고 지금까지의 과정들을 견디며 성장했다.
+                <br><br>
+                결과, 과정, 시작 중 시작을 가장 중요하게 생각하고<br> 
+                앞으로 뭘 해야하나 라는 고민끝에
+                웹 개발자 라는 직업에 확고한 결정을 한 김윤원입니다.</p><br>
+                
+            
             <video autoplay muted loop>
                 <source src="video/cc.mp4">
             </video>
@@ -45,48 +54,68 @@
 <!-- -------------about me start-------------- -->
 
         <div id="aboutMe" class="con1">
-            <h2>About me</h2>
-            <div id="de"></div>
-                    <div id="profileimg">
-                        <img src="image/yoon.jpg">
-                    </div>
+            <h2>ABOUT ME</h2> 
+                <div id="ab">
+                    <div>            
                     <table class="a">
-                        <tr class="aa">
-                            <th>이름</th>
-                            <th>생년월일</th>
-                            <th>주소지</th>
+                        <tr>
+                            <th></th>
+                            <th id="profileimg" style="padding-right: 30px;"><img src="image/yoon.jpg"></th>
+                            <th></th>
                         </tr>
-                
+                        <tr id="first3">                           
+                            <th><img src="image/user.png" width="30px">이름</th>
+                            <th><img src="image/birth.png" width="30px">생년월일</th>
+                            <th><img src="image/local.png" width="30px">주소지</th>
+                        </tr>
+                        
                         <tr id="first4">
                             <td>김윤원</td>
                             <td>96.08.23</td>
                             <td>성남시 중원구</td>
                         </tr>
-                    </table>
-                    <table class="a1">
                         <tr id="first5">
-                            <th>연락처</th>
-                            <th>이메일</th>
-                            <th>학력</th>
+                            <th><img src="image/phone.png" width="30px">연락처</th>
+                            <th><img src="image/mail.png" width="30px">이메일</th>
+                            <th><img src="image/pen.png" width="30px">학력</th>
                         </tr>
-                        <tr>
-                            <td>010-5312-2857</td>
-                            <td>yoonwon96@gmail.com</td>
+                        <tr id="first6">
+                            <td style="padding-bottom: 30px;">010-5312-2857</td>
+                            <td style="padding-bottom: 30px;">yoonwon96@gmail.com</td>
                             <td>장안대학교 <br>(IT학부)멀티미디어컨텐츠학과</td>
                         </tr>
-                    
                     </table>
-                
+
+                </div>
+             </div>   
         </div>
 
 
 
         <!-- -----------------skills start -->
-        <div id="skiils">
-        <div id="mt" class="con2">
-            <h2>Skills</h2>
-            <div id="de"></div>
-            <div id="prog">
+        
+        <div id="skills" class="con2">
+            <h2>SKILLS</h2>
+            <div class="all">
+                <div class="Backend">
+                    <div class="ftsub">Backend</div>
+                    <img src="image/backend.png">
+                </div>
+                <div class="Frontend">
+                    <div class="ftsub">Frontend</div>
+                    <img src="image/front.png">
+                </div>
+                
+                <div class="VersionCon">
+                    <div class="ftsub">Version Control</div>
+                    <img src="image/version.png" width="250px">
+                </div>
+                
+
+            </div>
+
+            
+            <!-- <div id="prog">
             <div class="progress-row">
                 <div>Java
                     <div>
@@ -107,7 +136,7 @@
                 </div>
                 </div>
                 <div class="progress-row">
-                <div>CSS
+                <div>CSS3
                     
                     <div>
                         <progress value="30" max="100"></progress>&nbsp;30%
@@ -154,37 +183,57 @@
                     </div>
                 </div>
                 </div>
-                </div>
+                </div> -->
         </div>
-</div>
+
 <!-- ----------------------------archiving start -->
-        <div id="archiving">
-        <div id="mt" class="con3">
-            <h2>Archiving</h2>
-            <div id="de"></div>
+        
+        <div id="archiving" class="con3">
+            <h2>ARCHIVING</h2>
             <div class="archi">
-                <p id="ar1">GitHub</p><div id="ar11"><a id="sa" href="https://github.com/KimYoonWon/Yoon">https://github.com/KimYoonWon/Yoon</a></div>
-                <p id="ar2">naverBlog</p><div id="ar22"><a href="https://blog.naver.com/java-king96">https://blog.naver.com/java-king96</a></div>
-                <p id="ar3">tistory</p><div id="ar33"><a href="https://it-javamyhand.tistory.com/">https://it-javamyhand.tistory.com</a></div>
-            </div>
+            <div id="ww">
+            <table>
+                <tr>
+                    <th colspan="2">GitHub</th>
+                </tr>
+                <tr>                   
+                    <td colspan="2"><a id="sa" href="https://github.com/KimYoonWon/Yoon">https://github.com/KimYoonWon/Yoon</a></td>
+                </tr>
+                <tr>
+                    <th colspan="2" style="padding-top: 40px;">naverBlog</th>
+                </tr>
+                <tr>                   
+                    <td colspan="2"><a id="sa" href="https://blog.naver.com/java-king96">https://blog.naver.com/java-king96</a></td>
+                </tr>
+                <tr>
+                    <th colspan="2" style="padding-top: 40px;">tistory</th>
+                </tr>
+                <tr>                   
+                    <td colspan="2"><a id="sa" href="https://it-javamyhand.tistory.com/">https://it-javamyhand.tistory.com</a></td>
+                </tr>
+            </table>        
         </div>
-        </div>
+    </div>
+                <!-- <div id="ar1">GitHub</div><div id="ar11"><a id="sa" href="https://github.com/KimYoonWon/Yoon">https://github.com/KimYoonWon/Yoon</a></div>
+                <div id="ar2">naverBlog</div><div id="ar22"><a href="https://blog.naver.com/java-king96">https://blog.naver.com/java-king96</a></div>
+                <div id="ar3">tistory</div><div id="ar33"><a href="https://it-javamyhand.tistory.com/">https://it-javamyhand.tistory.com</a></div> -->
+            
+        
 <!-- -------------------------------projects start -->
 
-        <div id="projects"> 
-        <div id="mt" class="con4">
-            <h2>Projects</h2>
-            <div id="de"></div>
+         
+        <div id="projects" class="con4">
+            <h2>PROJECTS</h2>
                 <div id="pro">
-                    <div id="web1">
-                        <h2 style="font-size: 30px;">자바코딩즈</h2>
-                        
+                    <!-- 웹 -->
+                    <div id="web1"> 
                         <!-- 이미지 슬라이드 -->
                         <div class="conta">
                             <div class="slide">
                                 <div class="toleft">
-                                    <i class="fa-solid fa-angle-left fa-2xl"></i>
+                                    <i class="fa-solid fa-angle-left fa-2xl" style="margin-top: 180px;"></i>
                                 </div>
+                                
                                 <div class="content">
                                     <div class="slides" id="slide0">
                                         <img src="image/4.png" onclick="window.open(this.src)"/>
@@ -198,50 +247,60 @@
                                     
                                 </div>
                                 <div class="toright">
-                                    <i class="fa-solid fa-angle-right fa-2xl"></i>
+                                    <i class="fa-solid fa-angle-right fa-2xl" style="margin-top: 180px;"></i>
                                     
                                 </div>
                             </div>
-                            <div id="webtext">
-                            <!-- <a id="su" href="pdf/test.pdf" style="font-size: 30px;" >자세히 보기</a><br> -->
-                                <p id="webtext2">스포츠 구단의 파생 상품을 판매하는 쇼핑몰로써 <br>가상의 야구 구단인 자바코딩즈몰
-                                </p>
-                                <div id="proline"></div><br>
-                                <div id="pro4">
-                                <table id="webtb1">
-                                    <tr> 
-                                        <th>주요기능</th>
-                                        <td>로그인, 회원가입, 장바구니, 이벤트페이지, 상품상세페이지, 상품관리자,<br> 이벤트관리자, 결제</td>
-                                    </tr>
-                                </table>
-                                <table id="webtb2">
-                                    <tr id="aas">
-                                        <th>깃허브</th>
-                                        <td><a href="https://github.com/KimYoonWon/javacodings">https://github.com/KimYoonWon/javacodings</a></td>
-                                    </tr>
-                                </table>
-                                <table id="webtb3">
-                                    <tr> 
-                                        <th>프론트엔드</th>
-                                        <td>HTML5, CSS, javascript, pigma</td>
-                                    </tr>
-                                </table>
-                                </div>
-                                </div>
                         </div>
                         <script src="https://kit.fontawesome.com/d505e57471.js" crossorigin="anonymous"></script>
                         <script src="script/imagesd.js"></script>
+                        <div id="webtext">
+                            
+                                <p id="hd">자바코딩즈</p>
+                                <div id="proline"></div><br>
+                                
+                                <div id="wt"><b>가상 스포츠 구단의 파생 상품을 판매하는 굿즈 온라인쇼핑몰사이트</b>
+                                입니다. e커머스 웹 개발자 과정 교육 당시 굿즈샵 쇼핑몰을 
+                                선택한 계기는 품목 자체가 다양하며 또한, 야구에 관심있어 하시는분이 계셔서
+                                팀과 회의 끝에 결정하게 되었습니다.
+                                <br><br>
+                                사용자, 상품관리와 주문관리 이렇게 2개의 사이트가 구성되어 있으며, 사용자는 
+                                회원가입, 로그인, 회원정보수정, 주문, 결제가 가능하도록 구현을 했습니다. 
+                                상품관리와 주문관리는 사용자와 상호작용을 하게되며, 상품 또는 주문
+                                을 추가,삭제,수정이 가능하도록
+                                구현했습니다. 
+                                <br><br>
+                                SpringBoot 프레임워크와 조금은 친숙해진 계기가 되었고, Ajax의
+                                동기식처리와 비동기처리등 흐름을 터득하며 원활하게 웹 서버와 데이터들을 교환
+                                가능하도록 구현하는것이 기술에 도움이 많이되었던것 같습니다.
+                                
+                                </div>
+                                <table id="webtb1">                                
+                                    <tr id="co1"> 
+                                        <th>깃허브</th>
+                                        <td><a href="https://github.com/KimYoonWon/javacodings">https://github.com/KimYoonWon/javacodings</a></td>
+                                    </tr>
+                                    <tr id="co2"> 
+                                        <th style="width: 110px;">주요기능</th>
+                                        <td>로그인, 회원가입, 장바구니, 이벤트페이지, 상품관리자, 이벤트관리자, 결제</td>
+                                    </tr>
+                                    <tr id="co3">
+                                        <th>Backend</th>
+                                        <td>Java, SpringBoot, Oracle, MySQL</td>
+                                    </tr>                 
+                                </table>                                                        
+                                </div>
                     </div>
                     
                     <!-- ------------------------안드로이드 시작 -->
-                    <div id="and">
-                        <h2 style="font-size: 30px;">MyBody Checker</h2>
-                        
+                    
+                    <!-- 모바일 -->
+                    <div id="and">                
                         <!-- 이미지 슬라이드 -->
                         <div class="conta">
                             <div class="slide">
                                 <div class="toleft2">
-                                    <i class="fa-solid fa-angle-left fa-2xl"></i>
+                                    <i class="fa-solid fa-angle-left fa-2xl" style="margin-top: 180px;"></i>
                                 </div>
                                 <div class="content">
                                     <div class="slides2" id="slidee0" >
@@ -256,58 +315,58 @@
                                     
                                 </div>
                                 <div class="toright2">
-                                    <i class="fa-solid fa-angle-right fa-2xl"></i>
+                                    <i class="fa-solid fa-angle-right fa-2xl" style="margin-top: 180px;"></i>
                                     
                                 </div>
                             </div>
-                            <div id="webtext">
-                            <!-- <a href="pdf/test.pdf" style="font-size: 30px;" >상세보기</a><br> -->
-                                <p id="webtext2">
-                                    운동을 처음 접하는 사람 혹은 집에서 간편히 운동을 하고 싶은 초보자들에게 <br>
-                                    직관적인 운동법과 트레이닝을 도와줄 수 있는 
-                                    어플을 기획했습니다.
-
-                                </p>
-                                <div id="proline"></div><br>
-                                <div id="pro4">
-                                <table id="antb11">
-                                    <tr>
-                                        <th>주요기능</th>
-                                        <td>로그인, 회원가입, 회원정보찾기, 고객BMI 기능, 운동종목 검색, 회원정보 수정, 스케줄 등록 </td>
-                                    </tr>
-                                </table>
-                                <table id="antb22">
-                                    <tr id="aas">
-                                        <th>깃허브</th>
-                                        <td><a href="https://github.com/KimYoonWon/MyBodyChecker/tree/master">https://github.com/KimYoonWon/MyBodyChecker/tree/master</a></td>
-                                    </tr>
-                                </table>
-                                <table id="antb33">
-                                    <tr>
-                                        <th>DB</th>
-                                        <td>Firebase </td>
-                                    </tr>
-                                </table>
-                                
-                                </div>
-                                </div>
+                            
                         </div>
                         <script src="https://kit.fontawesome.com/d505e57471.js" crossorigin="anonymous"></script>
                         <script src="script/imagesd.js"></script>
+                        <div id="webtext">
+                                <p id="hd">MyBody Checker</p>
+                                <div id="proline1"></div><br>
+                                
+                                <div id="wt"><b>처음 운동을 시작하는 사람들을 위한 헬스 앱 어플리케이션</b>
+                                입니다. 대학생 당시 운동에 대해서 잘 몰랐던 저는 운동하고싶은 부위를 검색하지
+                                않아도 클릭만으로 운동에 대한 리스트가 있었으면 좋겠다는 아이디어를 이용해 개발하였습니다. 
+                                <br><br>
+                                처음 Java를 사용해서 만든 프로젝트라서 고민 많이했지만 배운것을 최대한 실무에 적용시킨다는 생각으로
+                                임했고 Firebase를 사용해서 유저간의 데이터들을 보관, 관리하는 경험을통해 
+                                데이터베이스라는 것에 한걸음 다가갈수 있는 경험이었던것 같습니다.
+
+                                </div>
+                                <table id="webtb1">                                
+                                    <tr id="co1"> 
+                                        <th>깃허브</th>
+                                        <td><a href="https://github.com/KimYoonWon/MyBodyChecker/tree/master">https://github.com/KimYoonWon/MyBodyChecker/tree/master</a></td>
+                                    </tr>
+                                    <tr id="co2"> 
+                                        <th style="width: 110px;">주요기능</th>
+                                        <td>로그인, 회원가입, 회원정보찾기, 고객BMI 기능, 운동종목 검색, 회원정보 수정, 스케줄 등록</td>
+                                    </tr>
+                                    <tr id="co3">
+                                        <th>Tool</th>
+                                        <td>AndroidStudio, FireBase</td>
+                                    </tr>                 
+                                </table>
+                        </div>
                     </div>
+                    
                 </div>
         </div>
-    </div>
+    
 <!-- -----------------------------education start -->
-        <div id="education">
-        <div id="mt" class="con5">
-            <h2>Education</h2>
-            <div id="de"></div>
+        
+        <div id="education" class="con5">
+            <h2>EDUCATION</h2>
             <div id="edu">
-                <div id="fir">하이미디어 국비지원 자바개발자 과정 수강</div>
+                <div id="edja">
+                <div id="hi">
+                <div id="fir">하이미디어 국비지원 자바개발자 과정 수강</div><br>
                     <div>2023.07 ~ 2024.01</div>
                 
-                    <ul >
+                    <ul>
                         <li id="sec">하이미디어 자바개발자 과정을 수강하였습니다.
                             수강을 하며 Java의 문법과 Jsp,Html/CSS/<br>Javascript를 배우며
                             기본적인 웹사이트를 구축했습니다. 또한 팀프로젝트를 진행하며 
@@ -316,11 +375,12 @@
                             
                         </li>
                     </ul>
-                    <div id="jang">
-                <div id="fir">장안대학교 (IT학부) 멀티미디어컨텐츠 학과 졸업</div>
-                    <div id="sec">2020.03 ~ 2023.02</div>
+                </div>
+                <div id="jang">
+                <div id="fir">장안대학교 (IT학부) 멀티미디어컨텐츠 학과 졸업</div><br>
+                    <div>2020.03 ~ 2023.02</div>
                     
-                    <div>
+                    
                     <ul id="sec">
                         <li>장안대 멀티미디어 컨텐츠 학과에 입학하여 영상편집과 그래픽
                             디자인에 대한 기본지식을 배웠습니다. <br>
@@ -335,29 +395,22 @@
         </div>
         </div>
         </div>
-        </div>
+        
         <!-- -----------------------------footer start -->
         
-        <div id="ft" class="con6">
+        <div id="footer" class="con6">
             <footer id="na">
                 <nav style="margin-top: 30px;">
                     <a href="https://github.com/KimYoonWon" target='_blank'>깃허브</a> |
                     <a href="https://blog.naver.com/java-king96" target='_blank'>블로그</a> |
                     <a href="https://it-javamyhand.tistory.com/" target='_blank'>티스토리</a>
                 </nav>
-                
-
-                
-                <p  style="margin-top: 8px;">
+                <p style="margin-top: 8px;">
                     <span>Copyright 2024. Kim Yoon Won. All rights reserved.
                     </span>
                 </p>
             </footer>
         </div>
-    
- 
- 
- 
     </div>
 </body>
 </html>

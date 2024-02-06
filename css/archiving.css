@@ -1,38 +1,46 @@
-.con3{height: 15vh;}
-.con3 h2{margin-top:70px; font-size: 40px; text-align: center; }
+.con3{ background-color: rgb(220, 200, 249);
+     height: 700px;
+     /* border: solid 1px black; */
+    }
+
+.con3 h2{font-size: 40px; text-align: center; font-family:'SB'; padding-top: 30px;
+    color: white;}
 
 .archi{
-    margin-top:80px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    /* border: solid 1px black; */
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+#ww{
+    background-color: white;
+    width: 600px;
+    height: 400px;
     text-align: center;
-    display: block;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 280px;
-    margin-right: 280px;
+    
+    padding-left: 165px;
+    padding-top: 80px;
+    border-radius: 30px;
+    
+    
 }
-#ar1{
+#ww th{
+    font-family:'SB';
     font-size: 20px;
 }
-#ar2{
-    font-size: 20px;
-    margin-top: 40px;
-}
-#ar3{
-    font-size: 20px;
-    margin-top: 40px;
+
+#ww a{
+    color: #959595;
 }
 
-#ar11 a:link{color: #8d5858; text-decoration: none; font-weight: bold};
-#ar11 a:visited{color: #8488d2; text-decoration: none; font-weight: bold;}
-#ar11 a:active{color: #16ad2c; text-decoration: none; font-weight: bold;}
-#ar11 a:hover{color: #ff0000; text-decoration: none; font-weight: bold;}
 
-#ar22 a:link{color: #8d5858; text-decoration: none; font-weight: bold};
-#ar22 a:visited{color: #8488d2; text-decoration: none; font-weight: bold;}
-#ar22 a:active{color: #16ad2c; text-decoration: none; font-weight: bold;}
-#ar22 a:hover{color: #ff0000; text-decoration: none; font-weight: bold;}
 
-#ar33 a:link{color: #8d5858; text-decoration: none; font-weight: bold};
-#ar33 a:visited{color: #8488d2; text-decoration: none; font-weight: bold;}
-#ar33 a:active{color: #16ad2c; text-decoration: none; font-weight: bold;}
-#ar33 a:hover{color: #ff0000; text-decoration: none; font-weight: bold;}
+#ww a:link{color: #8d5858; text-decoration: none; font-weight: bold};
+#ww a:visited{color: #8488d2; text-decoration: none; font-weight: bold;}
+#ww a:active{color: #16ad2c; text-decoration: none; font-weight: bold;}
+#ww a:hover{color: #000000; text-decoration: none; font-weight: bold;}
+
